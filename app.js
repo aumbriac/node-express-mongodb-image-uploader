@@ -16,8 +16,7 @@ app.use(methodOverride('_method'));
 app.set('view engine', 'ejs');
 
 // Mongo URI
-const mongoURI =
- 'mongodb+srv://[YOUR_MONGODB_USERNAME]:[YOUR_MONGODB_PASSWORD]@cluster0-wrbyq.mongodb.net/[COLLECTION_NAME]';
+const mongoURI = 'mongodb+srv://[MONGO_DB_CREDENTIALS]';
 
 // Create connection via mongoose
 const conn = mongoose.createConnection(mongoURI, { useNewUrlParser: true });
