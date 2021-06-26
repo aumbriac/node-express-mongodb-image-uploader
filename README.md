@@ -1,4 +1,4 @@
-# Simple Node/Express MongoDB Image Upload System
+# Node/Express MongoDB Imager
 
 Quickstart 
 1) Enter your MongoDB credentials in the app.js file
